@@ -1,0 +1,22 @@
+<template>
+    <ul class="nav nav-pills">
+        <router-link
+        active-class="active" 
+        to="/"
+        exact
+        tag="li">
+        <a>Home</a>
+        </router-link>
+        <router-link
+         active-class="active" 
+        to="/user"
+        exact
+        tag ="li"> <!-- ana eleman li olduğu için -->
+        <a>User</a>
+        </router-link>
+    </ul>
+    
+</template>
+<script>
+
+</script>
